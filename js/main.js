@@ -177,6 +177,6 @@ var fader = $('.fader');
 var naver = $('.navFader');
 $(window).on('scroll', function() {
    var st = $(this).scrollTop();
-   fader.css({ 'opacity' : (1 - st/525) });
+   fader.css({ 'opacity' : (1 - st/400) });
    naver.css({ 'opacity' : (0 - st/-900) });
 });
