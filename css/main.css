@@ -389,7 +389,7 @@ a{
   background-size: 100%;
     background-repeat: no-repeat;
     position:fixed;
-    z-index: -2;
+
 }
 
 
@@ -404,7 +404,7 @@ a{
 
   text-align: center;
 
-  z-index: 10;
+
 
 }
 
@@ -430,7 +430,7 @@ a{
   font-size:5em;
 
   font-family:thin;
-  width:75%;
+  width:1000px;
   height:100px;
   padding-top:40px;
   color:#5d5d5d;
@@ -441,7 +441,7 @@ a{
   left:0;
   right:0;
 
-  z-index:15;
+
 
 
 
@@ -503,7 +503,7 @@ a{
 
 .introBackground{
     padding-top:25px;
-
+    background:#fff;
 
 
 }
@@ -578,7 +578,7 @@ padding-top:5px;
 background:#8cc63f;
 opacity:.8;
 width:100%;
-z-index:20;
+z-index:10;
 height: 70px;
 opacity:.9;
 position:fixed;
@@ -590,7 +590,7 @@ position:fixed;
 .navFader{
   width:100%;
   height: 70px;
-  z-index:10;
+
   background:white;
   position:fixed;
   opacity:0;
@@ -743,7 +743,7 @@ width:100%;
 	background:#05080E;
 	height:100vh;
 	position:fixed;
-	z-index: 20;
+
 	padding-top: 10px;
 
 }
@@ -782,7 +782,7 @@ width:100%;
 
 .main{
 
-
+  -webkit-font-smoothing: antialiased !important;
 	max-width: 99%;
 	min-width:40%;
 	margin: auto;
