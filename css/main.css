@@ -410,6 +410,7 @@ a{
 
 .headerWrap{
   width: 100%;
+  max-height:100vh;
 
     /* whatever width you want */
     display: inline-block;
