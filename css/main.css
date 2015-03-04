@@ -463,8 +463,9 @@ a{
 
 .header img{
 
-    max-width:110px;
-    margin-bottom:25px;
+  vertical-align: middle;
+
+    margin-top:15%;
 
 }
 
@@ -788,6 +789,7 @@ width:100%;
 	margin: auto;
 	height:100%;
 	padding:15px;
+  font-family:light;
 }
 
 
@@ -985,7 +987,7 @@ border-radius: 6px;
 
 .whiteBack p{
   color:#000000;
-  font-family:thin;
+  font-family:light;
   font-size: 1.2em;
 
 }
