@@ -21,7 +21,7 @@ body{
 
 	font-family: light;
 	color: #333333;
-	background: url('../img/subtle_grunge.png');
+
 	line-height:28px;
 	font-size:14px;
 }
@@ -389,6 +389,7 @@ a{
   background-size: 100%;
     background-repeat: no-repeat;
     position:fixed;
+    z-index:-2;
 
 }
 
@@ -448,6 +449,14 @@ a{
 
 }
 
+
+.container{
+
+  background:white;
+
+}
+
+
 .header h6{
 
   font-size:22px;
@@ -505,6 +514,8 @@ a{
 
 .introBackground{
     padding-top:25px;
+
+    margin-top:-15px;
     background:#fff;
 
 
@@ -780,8 +791,6 @@ width:100%;
 
 
 
-
-
 .main{
 
   -webkit-font-smoothing: antialiased !important;
@@ -791,6 +800,7 @@ width:100%;
 	height:100%;
 	padding:15px;
   font-family:light;
+
 }
 
 
