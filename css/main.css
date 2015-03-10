@@ -97,6 +97,21 @@ font-size:14px;
 
 }
 
+
+#kelly{
+
+  margin-left:14%;
+
+}
+
+
+#ethan{
+
+  margin-left:28%;
+
+}
+
+
 .navside{
 
   border-right:groove 1px;
@@ -589,11 +604,10 @@ a{
 color:white;
 padding-top:5px;
 background:#8cc63f;
-opacity:.8;
+
 width:100%;
 z-index:10;
 height: 70px;
-opacity:.9;
 position:fixed;
 
 
@@ -606,7 +620,7 @@ position:fixed;
 
   background:white;
   position:fixed;
-  opacity:0;
+
 
 
 }
@@ -993,6 +1007,12 @@ border-radius: 6px;
 
   background:#8cc63f;
   height:147px;
+
+}
+
+.greenHeader img{
+
+  max-width:162px;
 
 }
 
