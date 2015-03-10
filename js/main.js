@@ -171,3 +171,14 @@ $(function(){
 
 
 });
+
+
+
+var naver = $('.navFader');
+var whitenaver = $('.navWhite');
+$(window).on('scroll', function() {
+   var st = $(this).scrollTop();
+
+   naver.css({ 'opacity' : (0 - st/-1900) });
+   whitenaver.css({ 'opacity' : (0 - st/-1900) });
+});
