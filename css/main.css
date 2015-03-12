@@ -141,6 +141,21 @@ font-size:14px;
 
 }
 
+
+
+.leftFloater{
+
+  float:left;
+
+}
+
+
+.rightFloater{
+
+  float:right;
+
+}
+
 .navside{
 
   border-right:groove 1px;
