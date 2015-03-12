@@ -1462,11 +1462,120 @@ width:100%;
   }
 
 
-  .doobler{
+  .nav{
 
-    width:95%;
+    display:none;
 
   }
+
+
+  .navFader{
+
+    display:none;
+
+  }
+
+
+  .navWhite{
+
+    display:none;
+
+  }
+
+
+  .main h4{
+    margin-left:10px;
+    font-size:2.25em;
+    font-family:thin;
+    color:#5d5d5d;
+    margin-bottom:65px;
+    line-height:1.2em;
+
+  }
+
+
+
+  .main h5{
+    margin-left:10px;
+    font-size:1.75em;
+    font-family:thin;
+    color:#5d5d5d;
+    margin-top:-65px;
+    margin-bottom:65px;
+    line-height:1.2em;
+
+  }
+
+  .main h6{
+
+    font-size:1.75em;
+    font-family:thin;
+    color:#5d5d5d;
+
+
+    line-height:1.2em;
+
+  }
+
+  .main{
+
+    width:100%;
+    padding:0;
+
+  }
+
+  .col-md-12{
+
+    padding-right:0;
+    padding-left:0;
+  }
+
+
+
+
+  #kelly{
+
+    margin-left:0;
+
+  }
+
+
+  #ethan{
+
+    margin-left:0;
+
+  }
+
+
+  #farah{
+
+    margin-left:0;
+
+  }
+
+
+
+  #kate{
+
+    margin-left:0;
+
+  }
+
+
+  #daniel{
+
+    margin-left:0;
+
+  }
+
+
+
+  #wendy{
+
+    margin-left:0;
+
+  }
+
 
 
 }
