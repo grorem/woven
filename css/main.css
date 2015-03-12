@@ -817,6 +817,20 @@ display:none;
 }
 
 
+
+.mobileNavWhite{
+
+display:none;
+
+
+
+
+}
+
+
+
+
+
 .mobileNavigation {
 
 	display:none;
@@ -849,7 +863,7 @@ display:none;
 .mobileNavigation a{
 	color:white;
 	font-size: 30px;
-	font-family: fontReg;
+  font-family:thin;
 
 
 }
@@ -1633,7 +1647,23 @@ width:100%;
 
   background:#8cc63f;
   height:100px;
-  z-index:50;
+  z-index:20;
+  opacity:1;
+  position:fixed;
+
+  width:100%;
+
+}
+
+
+.mobileNavWhite{
+  padding:5%;
+  display:block;
+  z-index:20;
+  background:#ffffff;
+  color: #8cc63f;
+  height:100px;
+  opacity:0;
 
   position:fixed;
 
@@ -1662,7 +1692,7 @@ width:100%;
 }
 
 .menu h4{
-
+  margin-top:7%;
   color:white;
 
 }
@@ -1670,6 +1700,35 @@ width:100%;
 .header{
 
 
+
+}
+
+
+.mobileNavigation li {
+  width: 100%;
+  margin: auto;
+  margin-top:15%;
+  margin-left: -10px;
+
+}
+
+
+.mobileNavigation ul {
+
+background: #8cc63f;
+
+
+
+}
+
+.mobileNavigation{
+
+  z-index:60;
+
+}
+
+.mobileNavWhite h4{
+  color:#8cc63f;
 
 }
 

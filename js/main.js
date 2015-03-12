@@ -175,10 +175,17 @@ $(function(){
 
 
 var naver = $('.navFader');
+var naverMobile = $('.mobileNav');
 var whitenaver = $('.navWhite');
+var naverMobileWhite = $('.mobileNavWhite');
+
+
 $(window).on('scroll', function() {
    var st = $(this).scrollTop();
 
    naver.css({ 'opacity' : (0 - st/-1900) });
+   
+
+   naverMobileWhite.css({ 'opacity' : (0 - st/-1900) });
    whitenaver.css({ 'opacity' : (0 - st/-1900) });
 });
