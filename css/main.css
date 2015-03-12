@@ -502,8 +502,7 @@ a{
   left:0;
   right:0;
 
-
-
+  margin-bottom:-12px;
 
 
 }
@@ -572,7 +571,7 @@ a{
 }
 
 .introBackground{
-    padding-top:25px;
+    padding-top:60px;
 
     margin-top:-15px;
     background:#fff;
