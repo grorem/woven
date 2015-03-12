@@ -1115,6 +1115,12 @@ border-radius: 6px;
 
 }
 
+.namesMobile {
+
+  display:none;
+
+}
+
 .whiteBack {
 
   padding-top:45px;
@@ -1634,6 +1640,16 @@ width:100%;
     margin-bottom: -10%;
 
 
+}
+
+.namesMobile {
+  margin-top:15%;
+  margin-right:15%;
+  float:right;
+  color:white;
+  font-family:thin;
+
+  display:block;
 }
 
 
