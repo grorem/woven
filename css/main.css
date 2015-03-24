@@ -1793,9 +1793,18 @@ background: #8cc63f;
 
 .mobileNavWhite h4{
   color:#8cc63f;
+  margin-right:-40px;
+  font-size:22px;
 
 }
 
+
+.mobileNav h4{
+  color:#ffffff;
+  margin-right:-40px;
+  font-size:22px;
+
+}
 
 
 .row{
@@ -1808,6 +1817,12 @@ background: #8cc63f;
 .fader img{
   margin-top:5%;
   max-width:75%;
+
+}
+
+.greenHeader img{
+
+  max-width:40%;
 
 }
 
