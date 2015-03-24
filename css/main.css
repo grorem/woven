@@ -1640,6 +1640,15 @@ width:100%;
 
   }
 
+
+
+    .bottomOfHeader img{
+
+      max-width:90%;
+      margin-top:10px;
+
+    }
+
   .header{
     background:none;
     width:100%;
@@ -1788,5 +1797,13 @@ background: #8cc63f;
   margin-left: 0px;
 
 }
+
+
+.fader img{
+  margin-top:5%;
+  max-width:75%;
+
+}
+
 
 }
