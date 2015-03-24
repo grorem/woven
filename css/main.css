@@ -1702,6 +1702,12 @@ width:100%;
 
 }
 
+.main {
+
+
+  max-width: 99%;
+}
+
 
 .mobileNavWhite{
   padding:5%;
